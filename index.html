@@ -37,10 +37,9 @@
             <div class="container all" style="padding: 3rem 0 3rem 0;">
                 <div class="row">
 
+                    <div class="col-5 d-grid gap-4">
 
-                    <div class="col-5">
-
-                        <div class="container box" style="margin-bottom: 1rem;">
+                        <div class="container box">
                             <h5>𓇼 Sobre nós!</h5>
                             <hr>
                             <p>
@@ -54,7 +53,7 @@
                             <b>𓇼 Entenda o conteúdo aprendido com o slide!</b>
                         </div>
 
-                        <div class="container box" style="height: 50vh;">
+                        <div class="container box" style="height: 320px;">
 
                             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/N8hPuUUS3bU"
                                 title="YouTube video player" frameborder="0"
@@ -66,13 +65,25 @@
 
                     </div>
 
-                    <div class="col-7">
+                    <div class="col-7 d-grid gap-4">
 
                         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
 
-                            <div class="container box" style="margin-bottom: 1rem;">
+                            <div class="container box">
 
                                 <div class="carousel-inner">
+
+
                                     <div class="carousel-item active" data-bs-interval="10000">
                                         <img src="images/tinkeracad/atividade01.png" class="d-block w-100" alt="...">
                                     </div>
@@ -87,55 +98,47 @@
                                     <div class="carousel-item">
                                         <img src="images/tinkeracad/atividade04.png" class="d-block w-100" alt="...">
                                     </div>
+
+
+                                </div>
+                                <div class="d-flex w-100 justify-content-center" >
+
+
+                                    <div class="carousel-indicators" style="position: unset !important; margin: 0 !important;">
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
+                                    </div>
+
                                 </div>
 
                             </div>
+                        </div>
 
-                            <div class="d-flex w-100 justify-content-between" style="margin-bottom: 1rem;">
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev"
-                                    style="position: unset !important">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
 
-                                <div class="carousel-indicators" style="position: unset !important;">
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
-                                        class="active" aria-current="true" aria-label="Slide 1"></button>
 
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                                        aria-label="Slide 2"></button>
 
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                                        aria-label="Slide 3"></button>
 
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                                        aria-label="Slide 4"></button>
-                                </div>
+                        <div id="label" class="container row box">
 
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleDark" data-bs-slide="next"
-                                    style="position: unset !important">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
+                            <div id="text" class="container col-6">
+                                <!-- insert by js on /assets/data.js-->
                             </div>
-
-
-
-                            <div id="label" class="container row box">
-
-                                <div id="text" class="container col-6">
-                                    <!-- insert by js on /assets/data.js-->
-                                </div>
-                                <div id="code" class="container col-6">
-                                    <!-- insert by js on /assets/data.js-->
-                                </div>
-
+                            <div id="code" class="container col-6">
+                                <!-- insert by js on /assets/data.js-->
                             </div>
 
                         </div>
+
+
 
                     </div>
                 </div>
@@ -187,7 +190,7 @@
                             <li class="nav-item mb-2">"Relação da TI com a robótica"</li>
                             <li class="nav-item mb-2">Estudo de componentes TinkerAcad</li>
                             <li class="nav-item mb-2">Elaboração de textos</li>
-                            
+
                         </ul>
                     </div>
 
@@ -200,9 +203,9 @@
                             <li class="nav-item mb-2">JS</li>
                             <li class="nav-item mb-2">HTML</li>
                             <li class="nav-item mb-2">CSS</li>
-                            
+
                             <li class="nav-item mb-2">"Fases da robótica"</li>
-                            
+
                             <li class="nav-item mb-2">Ajuste de qualidade de imagem</li>
                             <li class="nav-item mb-2">Edição de imagens</li>
                         </ul>
