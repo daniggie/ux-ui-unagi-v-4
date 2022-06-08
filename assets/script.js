@@ -1,4 +1,4 @@
-import { texts as data } from '/assets/data.js';
+import { texts as data } from './data.js';
 
 function getCurrentCarouselIndex() {
     return ($('.carousel-item.active').index());
