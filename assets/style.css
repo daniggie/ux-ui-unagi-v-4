@@ -1,0 +1,122 @@
+body{
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: Rubik !important;
+}
+
+:root{
+    --light-white: #ffffff4d;
+    --blue: #5D8AA3;
+    --dark-blue: #121A48;
+    --white: #fff;
+}
+
+article{
+    background-color: var(--light-white);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border-radius: 1rem;
+}
+
+.box{
+    padding: 2rem !important;
+    background-color: var(--white);
+}
+
+b,h5,h6{
+    font-weight: 500 !important;
+}
+
+.description{
+    font-size: 13px;
+    max-height: 230px;
+    margin-bottom: 0.5rem;
+    overflow: auto;
+}
+
+pre{
+    height: 250px;
+    overflow: hidden !important;
+}
+
+code{
+    max-height: 270px;
+}
+
+code::-webkit-scrollbar {
+    width: 12px;               
+}
+  
+code::-webkit-scrollbar-track {
+background: #474949;     
+}
+
+code::-webkit-scrollbar-thumb {
+background-color: rgba(0, 0, 0);    
+border-radius: 20px;      
+border: 3px solid #474949; 
+}
+
+.description::-webkit-scrollbar {
+    width: 8px;               
+}
+  
+.description::-webkit-scrollbar-track {
+background: #d8d8d8;     
+}
+
+.description::-webkit-scrollbar-thumb {
+background-color: rgb(180, 180, 180);    
+border-radius: 20px;      
+}
+
+#code{
+    padding: 0;
+    font-size: 12px;
+}
+
+article .container.all, .row{
+    margin: 0!important;
+}
+
+footer{
+    color: white;
+}
+
+footer ul li{
+    background-color: var(--blue);
+    text-align: center;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: small;
+    transition: .6s;
+}
+
+footer ul li:hover{
+    padding: 1rem;
+}
+
+@media (max-width: 900px) {
+    article .row{
+        flex-direction: column;
+    }
+
+    article .col-5, article .col-7, article .col-6, article .box{
+        width: 100% !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+@media (max-width: 960px){
+    #label .row{
+        flex-direction: column !important;
+    }
+
+    #label .col-6{
+        width: 100% !important;
+    }
+}
