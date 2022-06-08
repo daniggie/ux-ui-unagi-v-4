@@ -27,7 +27,8 @@ article{
     background-color: var(--white);
 }
 
-b,h5,h6{
+article b, article h5, article h6{
+    color: var(--blue) !important;
     font-weight: 500 !important;
 }
 
@@ -83,12 +84,14 @@ footer ul li{
     border-radius: .5rem;
     padding: .5rem;
     font-size: small;
-    transition: .6s;
+    transition: .6s; 
+    word-break: keep-all;
 }
 
-footer ul li:hover{
-    padding: 1rem;
+footer .col {
+    width: 25%
 }
+
 
 @media (max-width: 900px) {
     article .row{
